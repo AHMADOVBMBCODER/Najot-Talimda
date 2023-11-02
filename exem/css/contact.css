@@ -1,0 +1,193 @@
+
+#contact {
+    background: #f3f3f3;
+    padding: 0px 195px 128px 195px;
+    display: block;
+    width: 100%;
+    height: 751px;
+  }
+  .contact-box {
+    padding: 80px 0px;
+  }
+  .content-title-box {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .content__h2 {
+    color: var(--text-color, #252b42);
+    font-family: var(--ic-fonts);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+  }
+  
+  .content__p {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    width: 470px;
+    margin: 0 auto;
+  }
+  
+  .content-card-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content-card {
+    background-color: #fff;
+    width: 328px;
+    height: 333px;
+    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.9s;
+  }
+  .content-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .content-card:nth-of-type(2) {
+    color: var(--light-text-color, #fff);
+    background-color: #252b42;
+  }
+  .content-card:nth-of-type(2) > .link > .e-link {
+    color: var(--light-text-color, #fff);
+  }
+  .content-card:nth-of-type(2) h5 {
+    color: var(--light-text-color, #fff);
+  }
+  .content-card img {
+    width: 72px;
+    height: 72px;
+  }
+  .content-card > .link {
+    text-align: center;
+    margin: 10px auto;
+  }
+  
+  .content-card > .link > .e-link {
+    text-align: center;
+    font-family: var(--ic-fonts);
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    color: var(--text-color, #252b42);
+    letter-spacing: 0.2px;
+  }
+  .content-card h5 {
+    margin-bottom: 15px;
+    color: var(--text-color, #252b42);
+    text-align: center;
+  
+    /* h5 */
+    font-family: var(--ic-fonts);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+  }
+  .content-card button {
+    padding: 10px 20px;
+    border: 1px solid var(--ic-primaryColor);
+    color: var(--primary-color, #ffa62b);
+    text-align: center;
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.9s;
+  }
+  .content-card button:hover {
+    background-color: #ffa62b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .back-contact {
+    background-color: #fafafa;
+  }
+  
+  .form-contact {
+    padding: 63px 18px;
+    text-align: center;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  .input-name,
+  .input-email,
+  .input-tel,
+  select {
+    width: 1050px;
+    height: 50px;
+    padding: 12px 20px;
+    border: 1px solid var(--Gray-5, #e0e0e0);
+    outline: none;
+    color: var(--Gray-3, #828282);
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.14px;
+  }
+  .input-name:focus,
+  .input-email:focus,
+  .input-tel:focus {
+    outline: 1px solid #ffa62b;
+  }
+  .input-name::placeholder,
+  .input-email::placeholder,
+  .input-tel::placeholder {
+    text-transform: capitalize;
+  }
+  .input-comment {
+    width: 1050px;
+    height: 156px;
+    padding: 12px 20px;
+    border: 1px solid var(--Gray-5, #e0e0e0);
+    outline: none;
+    color: var(--Gray-3, #828282);
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.14px;
+    outline: none;
+  }
+  .mb-39 {
+    margin-bottom: 59px;
+  }
+  .form-btn {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: var(--primary-color, #ffa62b);
+    border: none;
+    color: var(--light-text-color, #fff);
+    text-align: center;
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 200% */
+    letter-spacing: 0.2px;
+  }
+  

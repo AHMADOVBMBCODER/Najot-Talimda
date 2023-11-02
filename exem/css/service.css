@@ -1,0 +1,118 @@
+
+
+.service {
+    width: 100%;
+    background-color: #fff;
+    padding: 80px 0px;
+  }
+  .service-title {
+    padding: 45px 0px;
+  }
+  .service-title__heading {
+    color: var(--text-color, #252b42);
+    text-align: center;
+    font-family: var(--ic-fonts);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+  }
+  .service-title__paragriph {
+    color: var(--second-text-color, #737373);
+    text-align: center;
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    width: 511px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+  }
+  .service-group {
+    display: flex;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .box-play {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ic-secondary);
+    position: absolute;
+    top: 39%;
+    transition: all 1.2s;
+    left: 42%;
+  }
+  .play {
+    width: 30px;
+    padding-left: 6px;
+  }
+  .box-play:hover {
+    transform: scale(1.3);
+    background-color: var(--ic-primaryColor);
+  }
+  .group-figcaption {
+    position: relative;
+  }
+  picture > img {
+    width: 597px;
+    height: 442px;
+  }
+  
+  /* .group-text-main {
+  } */
+  .group-text__heading {
+    color: var(--text-color, #252b42);
+    font-family: var(--ic-fonts);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+  }
+  .group-text__paragriph {
+    color: var(--second-text-color, #737373);
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+  }
+  .group-text-flex {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .group-pic {
+    width: 32px;
+    height: 32px;
+  }
+  .group-box__heading {
+    color: var(--text-color, #252b42);
+    font-family: var(--ic-fonts);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+  }
+  
+  .group-box__paragriph {
+    color: var(--second-text-color, #737373);
+    font-family: var(--ic-fonts);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+  }
